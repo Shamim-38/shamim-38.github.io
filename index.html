@@ -1,243 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <meta name="keywords" content="Shamimul, shamim, personal, profile,JU,Islam, asian,manarat,teacher,engineer,computer science ,computer">
-    <title>Md Shamimul Islam</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/font-awesome.min.css" >
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="icon" href="img/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Md Shamimul Islam – Graduate Research Assistant, Florida Polytechnic University. Research in NIDS, LLMs, RAG, and IoT Security.">
+  <title>Md Shamimul Islam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-
-<body id="index">
-<!--navigation start here-->
-<div class="container-fluid nav_des sticky-top">
-    <div class="row ">
-        <div class="offset-2 col-md-13">
-            <nav>
-                <div class="navbar navbar-expand-lg navbar-light  " style="margin-left: 40px;">
-                    <button type="button" class="navbar-toggler" 
-                            data-toggle="collapse" data-target="#nav1">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="nav1">
-
-                        <ul class="navbar-nav">
-                            <li class="active"><a href="index.html" class="nav-link  ">Home</a></li>
-                            <li style="padding-left: 10px;"><a href="publication.html" class="nav-link">publication</a></li>
-                            <li style="padding-left: 10px;"><a href="teaching.html" class="nav-link">teaching</a></li>
-                            <li style="padding-left: 10px;"><a href="research_project.html" class="nav-link">projects</a></li>
-                            <li style="padding-left: 10px;"><a href="education.html" class="nav-link">education</a></li>
-                            <li style="padding-left: 10px;"><a href="experience.html" class="nav-link">experience</a></li>
-                            <li style="padding-left: 10px;"><a href="accolades.html" class="nav-link">accolades</a></li>
-                            <li style="padding-left: 10px;"><a href="extracurricular.html" class="nav-link">extracurricular</a></li>
-                            <li class="affiliation" style="padding-left: 10px;"><a href="affiliation.html" class="nav-link">affiliation</a></li>
-                            <li style="padding-left: 10px;"><a href="skills.html" class="nav-link">skills</a></li>
-                            <li style="padding-left: 10px;"><a href="gallery.html" class="nav-link">gallery</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div></div>
+<!-- ── Navigation ─────────────────────────────────────── -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Md Shamimul Islam</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="documents/curriculum vitae.pdf" target="_blank">CV</a>
     </div>
-    <!--end navigation-->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+  </div>
+</nav>
 
+<main>
 
-<!--top introducing section-->
-<div class="container top_info_content">
-    <div class="row">
-        <div class="col-md-3  col-">
-            <img class="rounded-circle" src="img/profile_pic.png" height="230px">
-        </div>
-        <div class="col-md-8  col- ">
-            <div class="top_info text-justify text-center">
-                <h1>Md Shamimul Islam</h1>
-                <h3>M.Sc in ASDS, JU</h3>
-                <h6>Lecturer, Department of Computer Science and Engineering (CSE)<br/>
-                    Asian University of Bangladesh (AUB), Dhaka, Bangladesh</h6>
-                <h4>Research Interest: Deep Learning, Computer Vision, NLP
-                </h4>
-            </div>
-
-            <div class="offset-4  col-md-8 col-">
-                <div class="elements ">
-                <a class="fa fa-github-square fa-2x"  style="color:#000;" href='https://github.com/shamim-38' title='Github'> </a> &nbsp  &nbsp
-                <a class="ai ai-google-scholar ai-2x" style="color:#000;" href='https://scholar.google.com/citations?hl=en&authuser=2&user=7qdN4ZYAAAAJ' title='Google Scholar'></a> &nbsp  &nbsp
-                <a class="ai ai-google-orcid ai-2x" style="color:#000;" href='https://orcid.org/0000-0002-6337-3571' title='Orcid'></a>
-               <!-- <a class="ai ai-dblp ai-2x" style="color:#000;" href='https://dblp.uni-trier.de/pers/hd/h/Hasan:Md_Mahedi' title='dblp'></a> &nbsp  &nbsp -->
-                <a class="ai ai-researchgate ai-2x" style="color:#000;" href='https://www.researchgate.net/profile/Md-Islam-485' title="ResearchGate"></a> 
-                </div>
-            </div>
-        </div>
-        <hr width="1100px;">
+  <!-- ── Profile hero ───────────────────────────────── -->
+  <section class="profile">
+    <img src="img/profile_pic.jpg" alt="Md Shamimul Islam" class="profile-photo">
+    <div class="profile-info">
+      <h1>Md Shamimul Islam</h1>
+      <p class="profile-role">Graduate Research Assistant &amp; M.S. Student</p>
+      <p class="profile-dept">Department of Computer Science &nbsp;·&nbsp; Florida Polytechnic University</p>
+      <div class="profile-links">
+        <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=7qdN4ZYAAAAJ" target="_blank" class="plink">Google Scholar</a>
+        <a href="https://linkedin.com/in/shamim435" target="_blank" class="plink">LinkedIn</a>
+        <a href="https://github.com/Shamim-38" target="_blank" class="plink">GitHub</a>
+        <a href="https://orcid.org/0009-0000-1848-1760" target="_blank" class="plink">ORCID</a>
+      </div>
+      <p class="profile-email">
+        <a href="mailto:mislam3051@floridapoly.edu">mislam3051@floridapoly.edu</a>
+      </p>
     </div>
-</div>
-<!--end section-->
+  </section>
 
+  <hr class="divider">
 
-
-
-
-
-
-<!--body parts-->
-<div class="container body_des">
-    <div class="row">
-        <div class="col-md-12 text-justify">
-            <h5><img alt='' src='img/lister.png' width='12'  /> Introduction </h5>
-             <p>    I hold the position of a Lecturer in the Computer Science Department at <a href="https://aub.ac.bd/">Asian University of Bangladesh</a>. 
-                Concurrently, I am engaged as a researcher within the computer vision and machine learning research group. My ongoing research centers around 
-                the development of deep learning models tailored for intelligent video surveillance systems. I earned my M.Sc. degree 
-                from <a href="https://juniv.edu/">Jahangirnagar University (JU)</a>, where I had the privilege of being mentored by <a href="https://juniv.edu/teachers/muzib378">Dr. Mohd. 
-                Muzibur Rahman</a>. Furthermore, I attained my B.Sc. from Manarat International University (MIU), guided by the supervision of
-                 <a href="https://cse.manarat.ac.bd/faculty/sohaib-abdullah">Sohaib Abdullah</a>.
-             </a></p>
-        </div>
+  <!-- ── Short Bio ──────────────────────────────────── -->
+  <section class="block">
+    <h2 class="section-title">Short Bio</h2>
+    <div class="bio-text">
+      <p>
+        I am a Graduate Research Assistant and M.S. student in the
+        <a href="https://floridapoly.edu/academics/programs/computer-science/" target="_blank">Department of Computer Science</a>
+        at <a href="https://floridapoly.edu/" target="_blank">Florida Polytechnic University</a>,
+        advised by Dr. Ayesha S. Dina and Dr. Luis G. Jaimes. My thesis, <strong>MA-IDS</strong>,
+        proposes a multi-agent RAG framework that integrates LLMs with a FAISS-based experience
+        library for adaptive, explainable IoT network intrusion detection. Before joining Florida Poly,
+        I lectured at Manarat International University and Asian University of Bangladesh, and hold
+        graduate degrees from Jahangirnagar University and Manarat International University.
+      </p>
     </div>
-    <br/>
+  </section>
 
-    <!-- social networks-->
-    <div class="row">
-        <div class="col-md-12 text-justify">
-            <h5><img alt='' src='img/lister.png' width='12'  /> Recent Activities </h5>
-            <ul >
-                <li>
-                <b> Leading the triumphant team among the eight victorious groups, I participated as the leader in the award presentation event of <a href="https://bangla.gov.bd/ai-for-bangla-2-0/"> "AI for Bangla 2.0,"</a> which took place at the Intercontinental Hotel in Bangladesh, June, 2023.
-                </li><br>
-                <li>
-                    <b> Presenting a Paper at <a href="https://confncim.com/">NCIM 2023</a> - International Conference on Next-Generation Computing, IoT, and Machine Learning, Duet.</b> 
-                </li><br>
-            </ul>
+  <hr class="divider">
+
+  <!-- ── Research Interests ─────────────────────────── -->
+  <section class="block">
+    <h2 class="section-title">Research Interests</h2>
+    <ul class="interest-tags">
+      <li>Network Intrusion Detection Systems</li>
+      <li>LLMs &amp; Retrieval-Augmented Generation</li>
+      <li>IoT Security</li>
+      <li>Agentic AI for Cybersecurity</li>
+      <li>Machine Learning</li>
+      <li>Federated Learning</li>
+      <li>Android Malware Detection</li>
+      <li>Biometrics &amp; Computer Vision</li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ── Education ──────────────────────────────────── -->
+  <section class="block">
+    <h2 class="section-title">Education</h2>
+    <ul class="edu-list">
+      <li>
+        <span class="edu-year">2025 –</span>&ensp;
+        <span class="degree">M.S. in Computer Science</span>, Florida Polytechnic University
+        &nbsp;·&nbsp; CGPA: 3.77 / 4.00
+      </li>
+      <li>
+        <span class="edu-year">2020 – 2022</span>&ensp;
+        <span class="degree">M.Sc. in Applied Statistics and Data Science</span>, Jahangirnagar University
+        &nbsp;·&nbsp; CGPA: 3.96 / 4.00
+        <span class="thesis">Thesis: Video-based Bangla Sign Language Recognition using Deep Learning Algorithms</span>
+      </li>
+      <li>
+        <span class="edu-year">2015 – 2020</span>&ensp;
+        <span class="degree">B.Sc. in Computer Science</span>, Manarat International University
+        &nbsp;·&nbsp; CGPA: 3.99 / 4.00
+        <span class="thesis">Thesis: Pose-based Multi-level Features Fusion For Exam Cheat Recognition Using CNN</span>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ── Publications ───────────────────────────────── -->
+  <section class="block">
+    <h2 class="section-title">Publications</h2>
+    <p class="pub-stats">
+      Total Citations: 98 &nbsp;·&nbsp; h-index: 4 &nbsp;·&nbsp; i10-index: 2 &nbsp;·&nbsp;
+      <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=7qdN4ZYAAAAJ" target="_blank">Google Scholar profile</a>
+    </p>
+    <ul class="pub-list">
+
+      <!-- Peer-reviewed -->
+      <li class="pub-item">
+        <span class="pub-num">1.</span>
+        <strong>M. S. Islam</strong>, L. G. Jaimes, and A. S. Dina, "MA-IDS: Multi-agent RAG framework
+        for IoT network intrusion detection with an experience library,"
+        <span class="pub-venue">Proceedings of the 2026 IEEE International Conference on Systems, Man,
+        and Cybernetics (SMC), Bellevue, WA, USA, 2026.</span>
+        <span class="pub-badge badge-accepted">Accepted</span>
+        &nbsp;<a href="https://arxiv.org/abs/2604.05458" class="pub-doi" target="_blank">arXiv ↗</a>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">2.</span>
+        <strong>M. S. Islam</strong>, A. J. M. A. Joha, N. Hossain, M. M. Hasan, and S. Abdullah,
+        "Multi-view Bangla sign language recognition: A new word-level video dataset,"
+        <span class="pub-venue">IEEE International Conference on Activity and Behavior Computing (ABC),
+        Kyushu, Japan, 2024.</span>
+        &nbsp;<a href="https://doi.org/10.1109/ABC61795.2024.10652018" class="pub-doi" target="_blank">DOI ↗</a>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">3.</span>
+        <strong>M. S. Islam</strong> and I. Elwarfalli, "Deep learning-powered ECG-based biometric
+        authentication,"
+        <span class="pub-venue">IEEE NCIM, Dhaka, Bangladesh, 2023.</span>
+        &nbsp;<a href="https://doi.org/10.1109/NCIM59001.2023.10212845" class="pub-doi" target="_blank">DOI ↗</a>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">4.</span>
+        N. H. M. Arafat, S. Ileas, Mujazid, and <strong>M. S. Islam</strong>, "Blosecr: A conceptual
+        framework of identity documents' security on blockchain in refugee issues,"
+        <span class="pub-venue">IEEE CONIT, Karnataka, India, 2022.</span>
+        &nbsp;<a href="https://doi.org/10.1109/CONIT55038.2022.9847731" class="pub-doi" target="_blank">DOI ↗</a>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">5.</span>
+        <strong>M. S. Islam</strong>, M. M. Hasan, and S. Abdullah, "A deep spatio-temporal network
+        for vision-based sexual harassment detection,"
+        <span class="pub-venue">IEEE ETCCE, 2021.</span>
+        &nbsp;<a href="https://doi.org/10.1109/ETCCE54784.2021.9689891" class="pub-doi" target="_blank">DOI ↗</a>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">6.</span>
+        M. M. Hasan, <strong>M. S. Islam</strong>, and S. Abdullah, "Robust pose-based human fall
+        detection using recurrent neural network,"
+        <span class="pub-venue">IEEE RAAICON, Dhaka, Bangladesh, 2019.</span>
+        &nbsp;<a href="https://doi.org/10.1109/RAAICON48939.2019.23" class="pub-doi" target="_blank">DOI ↗</a>
+      </li>
+
+      <!-- Under review / in prep -->
+      <li class="pub-item">
+        <span class="pub-num">7.</span>
+        J. Al-Mahmud, <strong>M. S. Islam</strong>, and A. A. Jui, "Video-based sexual harassment
+        detection using fine-tuned video transformers,"
+        <span class="pub-venue">Accepted to 2026 IEEE International Conference on Systems, Man,
+        and Cybernetics (SMC), 2026.</span>
+        <span class="pub-badge badge-accepted">Accepted</span>
+      </li>
+
+      <li class="pub-item">
+        <span class="pub-num">8.</span>
+        <strong>M. S. Islam</strong>, A. H. Sohag, and Z. Subah, "PermissionGuard: Fine-tuned LLMs
+        and BERT for Android permission-based malware detection,"
+        <span class="pub-venue">Manuscript in preparation, 2025.</span>
+        <span class="pub-badge badge-prep">In Prep</span>
+      </li>
+
+    </ul>
+    <a href="publications.html" class="see-all">See full list &amp; datasets →</a>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ── Research Projects ───────────────────────────── -->
+  <section class="block" id="projects">
+    <h2 class="section-title">Research Projects</h2>
+    <ul class="project-list">
+
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">MA-IDS: Multi-Agent RAG Framework for IoT Intrusion Detection</span>
+          <span class="project-years">2025 – Present &nbsp;·&nbsp; Thesis</span>
         </div>
-    </div>
+        <p class="project-desc">
+          Multi-agent IDS integrating GPT-4o with a FAISS-based RAG experience library, featuring a
+          Traffic Classification Agent and an Error Analysis Agent for dynamic rule generation.
+          Accepted at IEEE SMC 2026. Advisors: Dr. Ayesha S. Dina, Dr. Luis G. Jaimes.
+        </p>
+      </li>
 
-    <!-- Others-->
-    <div class="row">
-        <div class="col-md-12">
-            <h5><img alt='' src='img/lister.png' width='12'  /> Documents</h5> <br>
-            <div class="offset-1  col-md-12 col-">
-                <div class="elements ">
-                        <h6><a style="color:#000;" href="./documents/curriculum vitae.pdf">Curriculum Vitae</a> &nbsp  &nbsp
-                    <!--    <a style="color:#000;" href="gallery.html">Photos</a> &nbsp  &nbsp
-                        <a style="color:#000;" href="https://github.com/Mahedi-61/GaitThesis">M.Sc. Thesis</a>&nbsp  &nbsp
-                        <a style="color:#000;" href="https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73">CUDA Installation</a> -->
-                </div>
-            </div>
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">Video-Based Sexual Harassment Detection Using Fine-Tuned Video Transformers</span>
+          <span class="project-years">2025 – Present</span>
         </div>
-    </div>
-    <br>
+        <p class="project-desc">
+          Extended the SHVD dataset to 600 annotated clips across indoor and outdoor environments.
+          Fine-tuned VideoMAE, ViViT, and TimeSformer for binary classification; TimeSformer achieved
+          92.27% test accuracy, outperforming the CNN-LSTM baseline. Accepted at IEEE SMC 2026.
+        </p>
+      </li>
 
-
-
-    <!-- Interest-->
-    <div class="row">
-        <div class="col-md-12">
-            <h5><img alt='' src='img/lister.png' width='12'  /> My Interests</h5> <br>
-        <div class="row interest">
-                <div class="col-md-2 col-sm-4 "> <img src="img/code-solid.svg" ><h5>coding</h5></div>
-                <div class="col-md-2 col-sm-4 inter_part background "> <img src="img/mug-hot-solid.svg">  <h5>Coffie</h5></div>
-                <div class="col-md-2 col-sm-4 inter_part   "> <img src="img/linux-brands.svg" ><h5>linux</h5></div>
-                <div class="col-md-2 col-sm-4 inter_part background "> <img src="img/circket.png" ><h5>circket</h5> </div>
-                <div class="col-md-2 col-sm-4 inter_part "> <img src="img/book-reader-solid.svg" ><h5>reading</h5></div>
-                <div class="col-md-2 col-sm-4 inter_part background"> <img src="img/plane-solid.svg" > <h5>traveling</h5></div>
-                
-
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">PermissionGuard: Fine-Tuned LLMs &amp; BERT for Android Malware Detection</span>
+          <span class="project-years">2026 – Present</span>
         </div>
+        <p class="project-desc">
+          Compared LoRA fine-tuning of LLaMA 3.1-8B and full fine-tuning of BERT-base against classical
+          ML baselines for Android permission-based malware detection. Manuscript in preparation.
+        </p>
+      </li>
+
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">AI Career Counselor &amp; Guidance Platform</span>
+          <span class="project-years">2024 – 2025</span>
         </div>
-    </div>
-    <br>
+        <p class="project-desc">
+          LLaMA-powered platform providing personalized IT career roadmaps and labor market insights,
+          trained on an 8,000-point dataset curated from leading educational and job platforms.
+        </p>
+      </li>
 
-    <!-- social networks-->
-    <div class="row">
-        <div class="col-md-12">
-            <h5><img alt='' src='img/lister.png' width='12'  /> Here I am</h5> <br>
-            <div class="offset-1  col-md-4 col-">
-                <div class="elements ">
-                    <a class="fa fa-linkedin fa-2x"  style="color:#000;" href='https://www.linkedin.com/in/shamim435/' title='LinkedIn'></a> &nbsp  &nbsp
-                    <a class="fa fa-reddit fa-2x" style="color:#000;" href='https://www.reddit.com/' title='Reddit'></a> &nbsp  &nbsp
-                    <a class="fa fa-twitter fa-2x" style="color:#000;" href='https://twitter.com/shamim_miu' title='Twitter'></a> &nbsp  &nbsp
-                    <a class="fa fa-youtube fa-2x" style="color:#000;" href='https://www.youtube.com/channel/UCOwLNB9cdlUDUYp7ffgW5ow' title='Youtube'></a> &nbsp  &nbsp
-                </div>
-            </div>
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">Real-time Bangla Sign Language Translation System</span>
+          <span class="project-years">2022 – 2023</span>
         </div>
-    </div>
-    <br>
+        <p class="project-desc">
+          Transformer architecture for pose-based Bangla sign language video-to-sentence translation.
+          Winner of the national-level "AI for Bangla Competition 2.0" (100+ teams).
+        </p>
+      </li>
 
-
-    <!-- Contact-->
-    <div class="row">
-        <div class="col-md-2">
-            <h5><img  src='img/lister.png' width='12'/> Contact </h5> 
-        </div> 
-        <div class="col-md-5">
-            <p> <br>
-                Room: #218, <br>
-                Asian University of Bangladesh (AUB)<br>
-                Bangabandhu Road, Tongabari Ashulia, Dhaka
-            </p>
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">Detection of Phishing URLs for Secure Browsing</span>
+          <span class="project-years">2024</span>
         </div>
-        <div class="col-md-5">
-            <p> <br>
-                <!-- Email : <br> 
-                Email : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspshamimul435_AT_gmail.com<br> -->
-                Email : shamimul435_AT_gmail.com<br>
-                Phone : +880-1603765484 [email is preferable]<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp+880-1855305449
-            </p>
+        <p class="project-desc">
+          ML system to detect fraudulent URLs using Logistic Regression, Random Forest, SVMs, and
+          Neural Networks with advanced feature selection.
+        </p>
+      </li>
+
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">Bangla Social Network Post Analysis using Deep Learning</span>
+          <span class="project-years">2022</span>
         </div>
-    </div>
+        <p class="project-desc">
+          Transformer-based language model to classify political sentiment and toxicity in real-time
+          Bangla social media posts.
+        </p>
+      </li>
 
-</div>
-<!--End body parts-->
-
-
-
-
-
-<!--top scroller here-->
-<a href="#" class="go-top rounded-pill"><i class="fa fa-arrow-up"></i> </a>
-<!--end top scroller here-->
-
-
-<!--footer parts start -->
-<footer class="container-fluid  footer_des">
-    <div class="row">
-        <div class="col-md-12  footer_color text-decoration-none text-center">
-            <h6>
-                Copyright &copy; 2023, Md Shamimul Islam
-            </h6>
+      <li class="project-item">
+        <div class="project-header">
+          <span class="project-name">Automatic License Plate Recognition (ALPR)</span>
+          <span class="project-years">2018 – 2019</span>
         </div>
-    </div>
+        <p class="project-desc">
+          Real-time ALPR system trained on a Bangladeshi license plate dataset.
+          Published and presented at IEEE RAAICON 2019.
+        </p>
+      </li>
+
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ── Talks & Presentations ──────────────────────── -->
+  <section class="block">
+    <h2 class="section-title">Talks &amp; Presentations</h2>
+    <ul class="talk-list">
+
+      <li class="talk-item">
+        <span class="talk-year">2026</span>
+        <div class="talk-body">
+          <strong>Invited Speaker</strong> — Engineering and Science Student Research Symposium,
+          Florida Polytechnic University, Lakeland, FL.
+          <span class="talk-title">"Adaptive Reasoning for Network Traffic Security: A Multi-Agent RAG
+          Architecture with Persistent Knowledge Induction."</span>
+        </div>
+      </li>
+
+      <li class="talk-item">
+        <span class="talk-year">2026</span>
+        <div class="talk-body">
+          <strong>Poster Presentation</strong> — Florida Polytechnic University, Lakeland, FL.
+          <span class="talk-title">"MA-IDS: Multi-Agent RAG Framework for IoT Network Intrusion Detection
+          with an Experience Library."</span>
+        </div>
+      </li>
+
+      <li class="talk-item">
+        <span class="talk-year">2022</span>
+        <div class="talk-body">
+          <strong>Invited Speaker</strong> — Webinar on A Publication Road Map for Scientific Papers,
+          MIU CSE Club, Manarat International University.
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  &copy; Md Shamimul Islam 2026 &nbsp;|&nbsp;
+  <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=7qdN4ZYAAAAJ" target="_blank">Google Scholar</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/Shamim-38" target="_blank">GitHub</a>
 </footer>
-<!--end footer part-->
-    
-    
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
 <script>
-    $(document).ready(function() {
-        // Show or hide the sticky footer button
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 200) {
-                $('.go-top').fadeIn(200);
-            } else {
-                $('.go-top').fadeOut(200);
-            }
-        });
-
-        // Animate the scroll to top
-        $('.go-top').click(function(event) {
-            event.preventDefault();
-
-            $('html, body').animate({scrollTop: 0}, 1500);
-        })
+  (function () {
+    var html = document.documentElement;
+    var btn  = document.getElementById('themeToggle');
+    function setTheme(dark) {
+      if (dark) { html.setAttribute('data-theme', 'dark'); btn.textContent = '☀️'; }
+      else       { html.removeAttribute('data-theme');      btn.textContent = '🌙'; }
+      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch(e) {}
+    }
+    var saved; try { saved = localStorage.getItem('theme'); } catch(e) {}
+    setTheme(saved === 'dark');
+    btn.addEventListener('click', function () {
+      setTheme(html.getAttribute('data-theme') !== 'dark');
     });
-
+  })();
 </script>
 
 </body>
